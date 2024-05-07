@@ -1,13 +1,11 @@
 # B-TetaRdPG
 ## Description
-Here is the BACKEND part of TetaRdPG project.
-It's an basic RPG game.
-You can make fight againest monster ... and more !
+Here is the BACKEND part of XmassClick project.
+
 
 ## Installation & Start
-(Don't forget to use F-TetaRdPG project with)
-1. git clone https://github.com/Tetardtek/B-TetaRdPG.git
-2. cd B-TetaRdPG
+1. git clone https://github.com/Tetardtek/H1-XmassClick.git
+2. cd H1-XmassClick
 3. Create your own .env file (use env.sample for example)
 4. npm i
 5. You have to use npm run db:migrate && npm run db:seed (to create you own DB project)
