@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         element: <ErrorPage />,
       },
       {
-        path: "/ameliorations",
+        path: "/upgrade",
         element: <Ameliorations />,
       },
       {

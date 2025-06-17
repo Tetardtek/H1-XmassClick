@@ -10,10 +10,10 @@ function Ameliorations() {
     setIncrementPerSecond,
   } = useWildCoin();
 
-  const activePrices = [5, 15, 50, 500]; // prix
-  const passivePrices = [5, 15, 50, 500];
-  const activeIncrementValues = [1, 3, 10, 100]; // boost = incrementValue
-  const passiveIncrementValues = [1, 3, 10, 100]; // = incrementValue
+  const activePrices = [5, 15, 50, 500, 5000, 50000, 500000]; // prix
+  const passivePrices = [5, 15, 50, 500, 5000, 50000, 500000]; // prix
+  const activeIncrementValues = [1, 3, 10, 100, 1000, 10000, 100000]; // boost = incrementValue
+  const passiveIncrementValues = [1, 3, 10, 100, 1000, 10000, 100000]; // = incrementValue
 
   const acheterAmelioration = (type, amount) => {
     const prices = type === "actif" ? activePrices : passivePrices;
@@ -40,7 +40,7 @@ function Ameliorations() {
       <h2>Magasin d'Améliorations</h2>
       <div className="divAmelioActives">
         <p>Améliorations Actives :</p>
-        {[1, 2, 3, 4].map((amount) => (
+        {[1, 2, 3, 4, 5, 6, 7].map((amount) => (
           <div key={amount}>
             Price: {activePrices[amount - 1]} - (+
             {activeIncrementValues[amount - 1]})
@@ -55,7 +55,7 @@ function Ameliorations() {
       </div>
       <div className="divAmelioPassives">
         <p>Améliorations Passives :</p>
-        {[1, 2, 3, 4].map((amount) => (
+        {[1, 2, 3, 4, 5, 6, 7].map((amount) => (
           <div key={amount}>
             Price: {passivePrices[amount - 1]} - (+
             {passiveIncrementValues[amount - 1]})

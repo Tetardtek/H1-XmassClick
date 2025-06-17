@@ -16,5 +16,11 @@
     "linkname": "Succès",
     "linkurl": "/achievements",
     "btn": false
+  },
+  {
+    "id": "4",
+    "linkname": "Améliorations",
+    "linkurl": "/upgrade",
+    "btn": false
   }
 ]
