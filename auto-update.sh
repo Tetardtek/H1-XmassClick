@@ -7,3 +7,4 @@ if [ "$LOCAL" != "$REMOTE" ]; then
   git pull
   npm run build
 fi
+echo "Mise à jour auto exécutée le $(date)" >> /home/tetardtek/github/xmassClick/cron.log
